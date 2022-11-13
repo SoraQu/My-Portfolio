@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/17b3dcbc8d.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+    <title>SannyShop</title>
+</head>
+<body style="background-color:rgb(252, 240, 195)">
+    <nav class="navbar navbar-expand-sm bg-white navber-dark">
+        <div class="container-fluid">
+            <a class="navber-brand" href="SannyShop.html"><p><img src="logo.jpg" alt="" height="30" width="30"></p></a>
+            <div>
+                <ul class="nav">
+                    <div class="dropdown"> 
+                        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" style="color:rgb(86, 121, 236)">
+                            ITEM
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="shop.html" style="color:rgb(86, 121, 236)">All Product</a></li>
+                            <li><a class="dropdown-item" href="shop2way.html" style="color:rgb(86, 121, 236)">Category Product</a></li>
+                        </ul>  
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">BUY ROBUX</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+    <section class="home-slider py-3 py-md-5">
+        <div class="container col-sm-8">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" contain></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="bg1.jpg" alt="rb1" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Easy Robux</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bg2.jpg" alt="rb2" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Fun about Roblox</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bg3.jpg" alt="rb3" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>Come SannyShop</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="home-nav mb-2 mb-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 mb-3 mb-md-0 d-flex align-items-center justify-content-center" data-aos="fade up">
+                    <a href="shop2way.html" class="hover-upper">
+                        <img src="ItemShop.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-3 mb-3 mb-md-0 d-flex align-items-center justify-content-center" data-aos="fade up">
+                    <a href="shop.html" class="hover-upper">
+                        <img src="ItemShop_1.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-3 mb-3 mb-md-0 d-flex align-items-center justify-content-center" data-aos="fade up">
+                    <a href="shop2way.html" class="hover-upper">
+                        <img src="ItemShop_2.jpg" alt="" class="img-fluid">
+                    </a>
+                </div> 
+                <div class="col-12 col-lg-3 mb-3 mb-md-0 d-flex align-items-center justify-content-center" data-aos="fade up">
+                    <a href="login.html" class="hover-upper">
+                        <img src="ItemShop_3.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-stats mb-2 mb-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-3 mb-3 mb-md-0">
+                    <div class="car rounded border-fs" style="border:1px solid rgb(17, 0, 255)">
+                        <div class="card-body bg-fs-01 rounded text-center">
+                            <div class="pb-2">
+                                <img src="icon-rs.png" alt="" class="img-fluid" style="max-height:43px">
+                            </div>
+                            <h4 class="mb-0 font-bold text-truncate">22,000 R$</h4>
+                            <div class="font-light">READY ROBUX TO SOLD</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mb-3 mb-md-0 ">
+                    <div class="car rounded border-fs" style="border:1px solid rgb(17, 0, 255)">
+                        <div class="card-body bg-fs-01 rounded text-center">
+                            <div class="pb-2">  
+                                <i class="fa-sharp fa-solid fa-arrow-up-from-bracket" style="font-size:41px; color: orange"></i>
+                            </div>
+                            <h4 class="mb-0 font-bold text-truncate">0 R$</h4>
+                            <div class="font-light">SOLD ALREADY</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mb-3 mb-md-0">
+                    <div class="car rounded border-fs" style="border:1px solid rgb(17, 0, 255)">
+                        <div class="card-body bg-fs-01 rounded text-center">
+                            <div class="pb-2">
+                                <i class="fa-sharp fa-solid fa-users" style="font-size:41px; color: orange"></i>
+                            </div>
+                            <h4 class="mb-0 font-bold text-truncate">1</h4>
+                            <div class="font-light">MEMBER</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mb-3 mb-md-0">
+                    <div class="car rounded border-fs" style="border:1px solid rgb(17, 0, 255)">
+                        <div class="card-body bg-fs-01 rounded text-center">
+                            <div class="pb-2">
+                                <i class="fa-sharp fa-solid fa-box-open" style="font-size:41px; color: orange"></i>
+                            </div>
+                            <h4 class="mb-0 font-bold text-truncate">0</h4>
+                            <div class="font-light">PRODUCT SOLD ALREADY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 cold-lg-7">
+                    <div class="w-100 mmb-3">
+                        <h1 class="page-text-title mb-0">NEWS & UPDATE</h1>
+                        <h6 class="page-text-coloer d-none d-md-block font-light aos-init">NEWS ABOUT SANNYSHOP</h6>
+                    </div>
+                    <div class="mb-3 aos-init">
+                        <div class="card border-fs">
+                            <div class="card-body bg-bck px-4 pt-3">
+                                <h4 class="font-weight-bold text-break mb-0">Hello, SannyShop</h4>
+                                <div class="font-wight-light mb-2">
+                                    <small>Form 06/11/2022</small>
+                                </div>
+                                <div class="text-break">
+                                    <p>Welcome to SannyShop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="row mb-4 mb-md-2">
+                        <div class="col-12">
+                            <h1 class="page-text-title mb-0">NEW ITEM</h1>
+                            <h6 class="page-text-color d-none d-md-block">NEWEST PRODUCT</h6>
+                        </div>
+                    </div>
+                    <div class="my-1">
+                        <div class="row" style="border:1px solid oragne">
+                            <div class="col-6 col-lg-6">
+                                <div class="card" style="width:350px; width:100%" align="center">
+                                    <img class="card-img-top" src="800.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">800 Robux</h4>
+                                        <p class="card-text">Roblox Digital Gift Card - 800 Robux</p>
+                                        <a href="#" class="btn btn-primary disabled" disabled>Out of Stock</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6">
+                                <div class="card" style="width:350px; width:100%" align="center">
+                                    <img class="card-img-top" src="4500.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">4,500 Robux</h4>
+                                        <p class="card-text">Roblox Digital Gift Card - 4,500 Robux</p>
+                                        <a href="#" class="btn btn-primary disabled" disabled>Out of Stock</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6">
+                                <div class="card" style="width:350px; width:100%" align="center">
+                                    <img class="card-img-top" src="22000.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">22,000 Robux</h4>
+                                        <p class="card-text">Roblox Digital Gift Card - 22,000 Robux</p>
+                                        <a href="shop.html" class="btn btn-primary">Buy</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="mt-5 p-4 bg-white text-dark text-center">
+        <p>SannyShop</p>
+    </div>
+</footer>
+</html>

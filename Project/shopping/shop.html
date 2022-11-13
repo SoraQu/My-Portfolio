@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/17b3dcbc8d.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+    <title>SannyShop</title>
+</head>
+<body style="background-color:rgb(252, 240, 195)">
+    <nav class="navbar navbar-expand-sm bg-white navber-dark">
+        <div class="container-fluid">
+            <a class="navber-brand" href="SannyShop.html"><p><img src="logo.jpg" alt="" height="30" width="30"></p></a>
+            <div>
+                <ul class="nav">
+                    <div class="dropdown"> 
+                        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" style="color:rgb(86, 121, 236)">
+                            ITEM
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="shop.html" style="color:rgb(86, 121, 236)">All Product</a></li>
+                            <li><a class="dropdown-item" href="shop2way.html" style="color:rgb(86, 121, 236)">Category Product</a></li>
+                        </ul>  
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">BUY ROBUX</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+    <h1 align="center" class="display-3">Robux Shop</h1>
+    <hr>
+    <div class="container-fluid mt-3" align="center">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width:350px" align="center">
+                    <img class="card-img-top" src="800.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">800 Robux</h4>
+                        <p class="card-text">Roblox Digital Gift Card - 800 Robux</p>
+                        <a href="#" class="btn btn-primary disabled" disabled>Out of Stock</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width:350px" align="center">
+                    <img class="card-img-top" src="4500.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">4,500 Robux</h4>
+                        <p class="card-text">Roblox Digital Gift Card - 4,500 Robux</p>
+                        <a href="#" class="btn btn-primary disabled" disabled>Out of Stock</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width:350px" align="center">
+                    <img class="card-img-top" src="22000.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">22,000 Robux</h4>
+                        <p class="card-text">Roblox Digital Gift Card - 22,000 Robux</p>
+                        <button tpye="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#submit">Buy</button>
+                        <div class="modal fade" id="submit">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Buying Success</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        You got 22,000 Robux
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="shop.html"><button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
